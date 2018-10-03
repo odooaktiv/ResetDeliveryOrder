@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # © 2018-Today Aktiv Software (http://www.aktivsoftware.com).
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
@@ -15,6 +16,5 @@ class SaleOrder(models.Model):
         res = super(SaleOrder, self).action_confirm()
         stock_condition = self.env['stock.picking'].search(
             [('sale_id', '=', self.name)])
-        for i in stock_condition:
-            i.is_sale = True
+        stock_condition.is_sale = True
         return res
