@@ -1,7 +1,7 @@
 Reset Delivery Order
 ----------------------
 
-Odoo Version : Odoo 12.0 Community master
+Odoo Version : Odoo 12.0 Community
 
 
 Installation 
