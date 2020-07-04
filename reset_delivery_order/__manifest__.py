@@ -12,7 +12,7 @@
     'author': "Aktiv Software",
     'website': "http://www.aktivsoftware.com",
     'license': 'AGPL-3',
-    'category': 'Sale',
+    'category': 'Sales',
     'version': '10.0.1.0.0',
     'data': [
         'views/stock_picking_view.xml',
